@@ -13,6 +13,12 @@ mvn jetty:run
 
 to start up and deploy to Jetty.
 
+for run in tomcat, execute the commands
+
+mvn clean install eclipse:eclipse -Dwtpversion=2.0
+
+after run command, so, add in server tomcat
+
 For more help see the Apache Camel documentation
 
     http://camel.apache.org/
