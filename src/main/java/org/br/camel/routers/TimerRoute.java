@@ -6,7 +6,8 @@ import org.springframework.stereotype.Component;
  * Route used to check a folder on the server, 
  * after processing is sent to another directory
  * @author bruno
- *
+ * @since 1.0
+ * @version 1.0
  */
 @Component 
 public class TimerRoute extends RouteBuilder {
