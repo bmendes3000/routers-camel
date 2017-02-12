@@ -34,6 +34,7 @@
 		<spring-version>4.3.6.RELEASE</spring-version>
 		<slf4j-version>1.7.22</slf4j-version>
 		<log4j-version>1.2.16</log4j-version>
+		<jooq-version>3.9.1</jooq-version>
 	</properties>
 	
 	<dependencies>
@@ -53,11 +54,22 @@
 			<artifactId>camel-stream</artifactId>
 			<version>${camel.version}</version>
 		</dependency>
+		<dependency>
+			<groupId>org.apache.camel</groupId>
+			<artifactId>camel-servlet</artifactId>
+			<version>${camel.version}</version>
+		</dependency>
 		<!-- Spring Web -->
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-web</artifactId>
 			<version>${spring-version}</version>
+		</dependency>
+		<!-- jooq -->
+		<dependency>
+			<groupId>org.jooq</groupId>
+			<artifactId>jooq</artifactId>
+			<version>${jooq-version}</version>
 		</dependency>
 		<!-- logging -->
 		<dependency>

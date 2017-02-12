@@ -28,7 +28,8 @@
         http://www.springframework.org/schema/context
        http://www.springframework.org/schema/context/spring-context.xsd">
 	
-	<context:component-scan base-package="org.br.camel.routers"/>
+	<context:component-scan  base-package="org.br.camel.routers"/>
+	<context:component-scan base-package="org.br.camel.process"/>
 	<camel:camelContext xmlns="http://camel.apache.org/schema/spring">
 		<camel:contextScan/>		
 	</camel:camelContext>
