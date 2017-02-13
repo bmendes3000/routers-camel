@@ -32,7 +32,7 @@
 	<context:component-scan base-package="org.br.camel.process"/>
 	<context:component-scan base-package="org.br.camel.services"/>
 	<context:component-scan base-package="org.br.camel.dao"/>
-	
+	<context:component-scan base-package="org.br.camel.persistence"/>
 	<camel:camelContext xmlns="http://camel.apache.org/schema/spring">
 		<camel:propertyPlaceholder id="propertiesFile" location="file:${env:APP_CAMEL}/camel-props.properties"/>
 		<camel:contextScan/>		
