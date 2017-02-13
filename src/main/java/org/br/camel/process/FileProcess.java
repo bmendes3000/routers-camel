@@ -28,7 +28,13 @@ public class FileProcess implements Processor {
 		//read lines of the file.
 		try (Stream<String> stream = buffer.lines()) {
 			//read line
-			stream.forEach(System.out::println);
+			stream.forEach(line -> {
+				//verify line content number 1
+				if ("1".contentEquals(line)) {
+					log.info("Process first line [" + line + "] of the file" );
+				}
+				log.debug("Process line [" + line + "] of the file");
+			});
 			
 		} catch (Exception e) {
 			log.error("Error on read file", e);

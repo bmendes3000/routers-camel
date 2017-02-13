@@ -30,7 +30,9 @@
 	
 	<context:component-scan  base-package="org.br.camel.routers"/>
 	<context:component-scan base-package="org.br.camel.process"/>
+	
 	<camel:camelContext xmlns="http://camel.apache.org/schema/spring">
+		<camel:propertyPlaceholder location="/WEB-INF/camel-props.properties"/>
 		<camel:contextScan/>		
 	</camel:camelContext>
 	
