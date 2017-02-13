@@ -30,11 +30,14 @@
 	
 	<context:component-scan  base-package="org.br.camel.routers"/>
 	<context:component-scan base-package="org.br.camel.process"/>
+	<context:component-scan base-package="org.br.camel.services"/>
+	<context:component-scan base-package="org.br.camel.dao"/>
 	
 	<camel:camelContext xmlns="http://camel.apache.org/schema/spring">
-		<camel:propertyPlaceholder location="/WEB-INF/camel-props.properties"/>
+		<camel:propertyPlaceholder id="propertiesFile" location="file:${env:APP_CAMEL}/camel-props.properties"/>
 		<camel:contextScan/>		
 	</camel:camelContext>
+	
 	
 	
     <!--

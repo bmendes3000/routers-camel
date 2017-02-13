@@ -31,7 +31,7 @@ public class FileProcess implements Processor {
 			stream.forEach(line -> {
 				//verify line content number 1
 				if ("1".contentEquals(line)) {
-					log.info("Process first line [" + line + "] of the file" );
+					log.info("Process line number 1 [" + line + "] of the file" );
 				}
 				log.debug("Process line [" + line + "] of the file");
 			});

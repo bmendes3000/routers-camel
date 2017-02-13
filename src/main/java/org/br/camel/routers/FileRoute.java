@@ -22,10 +22,10 @@ public class FileRoute extends RouteBuilder {
 	
 	@Override
 	public void configure() throws Exception {
-		from("file://${folder.file.input}?noop=true&delay=200")
+		from("file://{{folder.file.input}}?noop=true&delay=200")
 		.convertBodyTo(byte[].class, "utf-8")
 		.process(process)
-		.to("file://${folder.file.output}");
+		.to("file://{{folder.file.output}}");
 		
 	}
 	

@@ -55,14 +55,30 @@
 			<version>${camel.version}</version>
 		</dependency>
 		<dependency>
+		    <groupId>org.apache.camel</groupId>
+		    <artifactId>camel-jackson</artifactId>
+		    <version>${camel.version}</version>
+		</dependency>
+		<dependency>
 			<groupId>org.apache.camel</groupId>
-			<artifactId>camel-servlet</artifactId>
+			<artifactId>camel-restlet</artifactId>
 			<version>${camel.version}</version>
 		</dependency>
+		
 		<!-- Spring Web -->
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-web</artifactId>
+			<version>${spring-version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-context</artifactId>
+			<version>${spring-version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-jdbc</artifactId>
 			<version>${spring-version}</version>
 		</dependency>
 		<!-- jooq -->
@@ -70,6 +86,16 @@
 			<groupId>org.jooq</groupId>
 			<artifactId>jooq</artifactId>
 			<version>${jooq-version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-dbcp2</artifactId>
+			<version>2.0</version>
+		</dependency>
+		<dependency>
+			<groupId>com.h2database</groupId>
+			<artifactId>h2</artifactId>
+			<version>1.3.168</version>
 		</dependency>
 		<!-- logging -->
 		<dependency>

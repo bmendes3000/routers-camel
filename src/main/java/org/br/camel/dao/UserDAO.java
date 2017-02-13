@@ -8,4 +8,9 @@ public interface UserDAO {
 	 * @param vo {@link UserVO}
 	 */
 	void insert(final UserVO vo);
+	/**
+	 * method responsible by find user by id
+	 * @param user {@link UserVO}
+	 */
+	UserVO findUserById(final Integer id);
 }
