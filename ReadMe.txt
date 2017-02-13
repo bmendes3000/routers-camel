@@ -1,24 +1,26 @@
 Camel Router WAR Project
 ========================
 
-This project includes a sample route as as a WAR.
-You can build the WAR by running
+This sample project has the objective of show the integration between the technologies:
+	- apache-camel
+	- spring 
+	- jooq
+Also created simple routes, as:
+	- Direct
+	- Timer
+	- File
+	- Rest
+I wait with this project, remove doubts about integrations, patterns and implementations of routes.
 
-mvn install
-
+You can build the WAR by running:
+	mvn clean install
+	
 You can then run the project by dropping the WAR into your 
-favorite web container or just run
-
-mvn jetty:run
-
+favorite web container or just run:
+	mvn jetty:run
 to start up and deploy to Jetty.
 
-for run in tomcat, execute the commands
+But, for run in tomcat with eclipse, execute the commands
+	mvn clean install eclipse:eclipse -Dwtpversion=2.0
 
-mvn clean install eclipse:eclipse -Dwtpversion=2.0
-
-after run command, so, add in server tomcat
-
-For more help see the Apache Camel documentation
-
-    http://camel.apache.org/
+Thanks, and any doubts, please, call me.
