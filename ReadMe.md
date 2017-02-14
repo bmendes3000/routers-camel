@@ -16,19 +16,16 @@ This project have objective, remove doubts about integration jooq, spring and ca
 
 ## Instalation
 
- ###### For generate build of the WAR:
-
-	__mvn clean install__
-
-
- ###### Run in web container Jetty:	
-
-	__mvn jetty:run__
+###### For generate build of the WAR:
+   __mvn clean install__
 
 
- ###### Develop and run in eclipse with tomcat:
+###### Run in web container Jetty:	
+   __mvn jetty:run__
 
-	__mvn clean install eclipse:eclipse -Dwtpversion=2.0__
+
+###### Develop and run in eclipse with tomcat:
+   __mvn clean install eclipse:eclipse -Dwtpversion=2.0__
 
 Any doubts, please, call me.
 
