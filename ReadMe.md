@@ -1,14 +1,14 @@
 ## Camel Routes Integration 
 
 This sample project has the objective of show the integration between the technologies:
-	- apache-camel
-	- spring 
-	- jooq
+ * apache-camel
+ * spring 
+ * jooq
 Also created simple routes, as:
-	- Direct
-	- Timer
-	- File
-	- Rest
+ * Direct
+ * Timer
+ * File
+ * Rest
 
 ## Motivation
 This project have objective, remove doubts about integration jooq, spring and camel, also show the patterns and form of implementations of routes.
