@@ -1,4 +1,4 @@
-## Camel Routes Integration 
+# Camel Routes Integration 
 
 This sample project has the objective of show the integration between the technologies:
  * apache-camel
@@ -16,15 +16,15 @@ This project have objective, remove doubts about integration jooq, spring and ca
 
 ## Instalation
 
-###### For generate build of the WAR:
+### For generate build of the WAR:
    __mvn clean install__
 
 
-###### Run in web container Jetty:	
+### Run in web container Jetty:	
    __mvn jetty:run__
 
 
-###### Develop and run in eclipse with tomcat:
+### Develop and run in eclipse with tomcat:
    __mvn clean install eclipse:eclipse -Dwtpversion=2.0__
 
 Any doubts, please, call me.
