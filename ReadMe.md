@@ -4,6 +4,7 @@ This sample project has the objective of show the integration between the techno
  * apache-camel
  * spring 
  * jooq
+
 Also created simple routes, as:
  * Direct
  * Timer
@@ -14,14 +15,14 @@ Also created simple routes, as:
 This project have objective, remove doubts about integration jooq, spring and camel, also show the patterns and form of implementations of routes.
 
 ## Instalation
- # For generate build of the WAR:
-	mvn clean install
+ ###### For generate build of the WAR:
+	__mvn clean install__
 
- # Run in web container Jetty:	
-	mvn jetty:run
+ ###### Run in web container Jetty:	
+	__mvn jetty:run__
 
- # Develop and run in eclipse with tomcat:
-	mvn clean install eclipse:eclipse -Dwtpversion=2.0
+ ###### Develop and run in eclipse with tomcat:
+	__mvn clean install eclipse:eclipse -Dwtpversion=2.0__
 
 Any doubts, please, call me.
 
