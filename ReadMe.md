@@ -15,13 +15,19 @@ Also created simple routes, as:
 This project have objective, remove doubts about integration jooq, spring and camel, also show the patterns and form of implementations of routes.
 
 ## Instalation
+
  ###### For generate build of the WAR:
+
 	__mvn clean install__
 
+
  ###### Run in web container Jetty:	
+
 	__mvn jetty:run__
 
+
  ###### Develop and run in eclipse with tomcat:
+
 	__mvn clean install eclipse:eclipse -Dwtpversion=2.0__
 
 Any doubts, please, call me.
